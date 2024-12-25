@@ -36,7 +36,7 @@ function Navbar() {
           <div className='hidden md:flex' >
             <button className='bg-blue-500 text-white px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90'> Resume </button>
           </div>
-          <div onClick={toggleNav} className='ml-[11.75rem] md:hidden '>
+          <div onClick={toggleNav} className=' right-8 top-6 absolute md:hidden '>
            {
             nav ?  <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>
            }
