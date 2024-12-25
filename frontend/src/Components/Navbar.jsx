@@ -36,16 +36,15 @@ function Navbar() {
           <div className='hidden md:flex' >
             <button className='bg-blue-500 text-white px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90'> Resume </button>
           </div>
-          <div onClick={toggleNav} className='ml-[14.75rem] md:hidden flex justify-between'>
+          <div onClick={toggleNav} className='ml-[11.75rem] md:hidden '>
            {
-            nav ?  <i class="fa-solid fa-bars"></i> : <i class="fa-solid fa-xmark"></i>
+            nav ?  <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>
            }
           </div>
         </div>
 
 
-
-        {/* mobile view  */}
+ 
            
          {/* Mobile Menu */}
       {nav && (
