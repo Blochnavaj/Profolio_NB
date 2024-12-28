@@ -10,8 +10,8 @@ function Navbar() {
 
   return (
     <>
-      <div className='flex md:justify-between   items-center  mt-4 m-3   '>
-        <div className='ml-6'>
+      <div className='flex md:justify-between   items-center  mt-4 m-3 bg-slate-500  '>
+        <div className='ml-6 '>
           <h1 className='text-3xl font-semibold text-black hover:text-blue-500 cursor-pointer '>NAVAJ</h1>
         </div>
 
@@ -36,7 +36,7 @@ function Navbar() {
           <div className='hidden md:flex' >
             <button className='bg-blue-500 text-white px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90'> Resume </button>
           </div>
-          <div onClick={toggleNav} className=' right-8 top-6 absolute md:hidden '>
+          <div onClick={toggleNav} className=' right-8  top-6 absolute md:hidden '>
            {
             nav ?  <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>
            }

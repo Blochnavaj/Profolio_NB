@@ -8,7 +8,10 @@ export default {
     extend: {
       colors:{
         primary : '#FAFAFA'
-      }
+      },
+      fontFamily: {
+        'afacad-flux': ['"Afacad Flux"', 'serif'], // Add your custom font family
+      },
     },
   },
   plugins: [],
