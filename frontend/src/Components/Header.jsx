@@ -10,9 +10,9 @@ function Header() {
                         <img className='w-full h-full ' src={header_image} alt="" />
                     </div>
                     <div className=' mt-3 text-3xl grid justify-center items-center lg:text-6xl lg:mt-[4rem] lg:ml-5 lg:leading-[4.5rem]  md:text-5xl md:outline-[4.5rem]      '>
-                        <p className=' font-extralight  '> Hello I'am  <span className='font-black'>Navaj Bloch.</span></p>
+                        <p className=' font-light'> Hello I'am  <span className='font-black'>Navaj Bloch.</span></p>
                          
-                        <p><span className='font-black'> Frontend</span > <span className='font-afacad-flux'> Developer</span> </p>  
+                        <p><span className='font-black'> Frontend</span > <span className='special-font'> Developer</span> </p>  
                         <p>
                             Based In <span className='font-black'>India.</span>
                         </p>
@@ -23,20 +23,20 @@ function Header() {
                 </div>
 
                 <div className='flex gap-5 md:mt-6 lg:ml-6 text-4xl md:flex md:justify-center md:items-center lg:justify-start lg:items-start justify-center items-center mt-4' > 
-                    <a href="" className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a href="#" className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i   class="fa-brands fa-facebook  "></i>
                     </a>
 
-                    <a href=""  className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a href="#"  className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
 
-                    <a href=""  className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a href="#"  className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i class="fa-brands fa-github"></i>
 
                     </a>
 
-                    <a href=""  className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a href="#"  className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i class="fa-brands fa-square-x-twitter"></i>
                     </a>
 

@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='flex md:justify-between   items-center  mt-4 m-3 bg-slate-500  '>
+      <div className='flex md:justify-between   items-center  mt-4 m-3    '>
         <div className='ml-6 '>
           <h1 className='text-3xl font-semibold text-black hover:text-blue-500 cursor-pointer '>NAVAJ</h1>
         </div>
@@ -48,21 +48,21 @@ function Navbar() {
            
          {/* Mobile Menu */}
       {nav && (
-        <div className="md:hidden bg-slate-400 mt-[4rem] w-2/3 m-auto absolute top-0 left-0 py-6 px-4 right-0">
-          <ul className="flex flex-col gap-4 list-none ">
-            <a href="#"  >
-              <li className="text-black font-semibold">About Me</li>
+        <div className="md:hidden bg-black mt-[4rem] w-2/3 m-auto absolute top-0 left-0 py-6 px-4 right-0 flex justify-center items-center">
+          <ul className="flex flex-col gap-3 list-none  ">
+            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center'  >
+              <li className="text-white font-semibold">About Me</li>
             </a>
-            <a href="#"  >
-              <li className="text-black font-semibold">Skills</li>
+            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center '  >
+              <li className="text-white font-semibold">Skills</li>
             </a>
-            <a href="#"  >
-              <li className="text-black font-semibold">Projects</li>
+            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center '  >
+              <li className="text-white font-semibold">Projects</li>
             </a>
-            <a href="#"  >
-              <li className="text-black font-semibold">Contact Me</li>
+            <a href="#"  className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center ' >
+              <li className="text-white font-semibold">Contact Me</li>
             </a>
-            <a href="#"  >
+            <a href="#"   >
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90">
                 Resume
               </button>
