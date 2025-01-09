@@ -6,6 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
+ 
+
+
  .special-font{
   font-family: "Londrina Outline", serif;
   font-weight: bolder; 
@@ -18,4 +21,9 @@
  ::-webkit-scrollbar{
     @apply hidden
  }
+
+
+  
+
+
   
