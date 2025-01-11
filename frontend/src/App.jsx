@@ -2,6 +2,7 @@
 import Navbar from './Components/Navbar'
 import Header from './Components/Header'
 import MySkills from './Components/MySkills'
+import MyExperience from './Components/MyExperience'
  
  function App() {
    return (
@@ -11,6 +12,7 @@ import MySkills from './Components/MySkills'
     <div>
       <MySkills/>
     </div>
+    <MyExperience/>
    </>
  
    )

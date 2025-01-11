@@ -58,8 +58,8 @@ const skillsData = [
 function MySkills() {
   return (
     <div>
-      <div className="mt-5 flex justify-center items-center md:mt-[5rem]">
-        <h1 className="text-4xl text-black font-light">
+      <div className="mt-7 flex justify-center items-center md:mt-[3rem] ">
+        <h1 className="text-4xl text-black font-light md:mt-7">
           My<span className="font-bold">Skills</span>
         </h1>
       </div>
