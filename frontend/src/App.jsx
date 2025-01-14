@@ -5,18 +5,20 @@ import MySkills from './Components/MySkills'
 import MyExperience from './Components/MyExperience'
 import AboutMe from './Components/AboutMe'
 import Project from './Components/Project'
+import ContactMe from './Components/ContactMe'
  
  function App() {
    return (
    <>
       <Navbar/>
       <Header/>
-    <div>
+    <div className='lg:mt-6 md:m-auto'>
       <MySkills/>
     </div>
     <MyExperience/>
     <AboutMe/>
     <Project/>
+    <ContactMe/>
    </>
  
    )
