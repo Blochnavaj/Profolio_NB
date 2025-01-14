@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import MySkills from './Components/MySkills'
 import MyExperience from './Components/MyExperience'
 import AboutMe from './Components/AboutMe'
+import Project from './Components/Project'
  
  function App() {
    return (
@@ -15,6 +16,7 @@ import AboutMe from './Components/AboutMe'
     </div>
     <MyExperience/>
     <AboutMe/>
+    <Project/>
    </>
  
    )
