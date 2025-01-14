@@ -2,10 +2,11 @@ import React from 'react'
 import { workdata } from '../assets/data.js'
 
 function MyExperience() {
-  console.log(workdata)
-  return (
+   return (
     <>
+
       <div className='bg-black mt-6'>
+        {/* Tittle section  */}
         <div className='grid justify-center items-center md:mt-4 pt-6 '>
           <h1 className='text-white text-4xl font-light'>My <span className='font-bold'>Experience</span></h1>
         </div>
