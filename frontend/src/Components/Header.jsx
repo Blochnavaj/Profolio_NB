@@ -27,11 +27,11 @@ function Header() {
                         <i   class="fa-brands fa-facebook  "></i>
                     </a>
 
-                    <a href="#"  className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a  href="https://www.linkedin.com/in/bloch-navaj" target='_blank'  className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
 
-                    <a href="#"  className='border p-3 border-black hover:bg-black hover:text-white '>
+                    <a href="https://github.com/Blochnavaj" target='_blank'  className='border p-3 border-black hover:bg-black hover:text-white '>
                         <i class="fa-brands fa-github"></i>
 
                     </a>
