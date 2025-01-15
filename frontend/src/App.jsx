@@ -10,7 +10,8 @@ import ContactMe from './Components/ContactMe'
  function App() {
    return (
    <>
-      <Navbar/>
+     
+     <Navbar/>
       <Header/>
     <div className='lg:mt-6 md:m-auto'>
       <MySkills/>
@@ -19,6 +20,7 @@ import ContactMe from './Components/ContactMe'
     <AboutMe/>
     <Project/>
     <ContactMe/>
+   
    </>
  
    )

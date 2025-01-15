@@ -10,13 +10,13 @@ function Navbar() {
 
   return (
     <>
-      <div className='flex md:justify-between   items-center  mt-4 m-3    '>
+      <div className='flex md:justify-between   items-center  mt-4 m-3 xl:justify-between 2xl:px-9    '>
         <div className='ml-6 '>
-          <h1 className='text-3xl font-semibold text-black hover:text-blue-500 cursor-pointer '>NAVAJ</h1>
+          <h1 className='text-3xl 2xl:text-5xl font-bold text-black hover:text-blue-500 cursor-pointer '>NAVAJ</h1>
         </div>
 
         <div className='hidden md:flex '>
-          <ul className='flex gap-5 list-none'>
+          <ul className='flex gap-5 list-none 2xl:text-3xl'>
             <a href="#" className=''>
               <li className='text-black font-semibold hover:text-blue-500    '>About Me</li>
             </a>
