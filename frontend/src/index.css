@@ -23,7 +23,9 @@
  }
 
 
-  
+  html{
+   scroll-behavior: smooth;
+  }
 
 
   

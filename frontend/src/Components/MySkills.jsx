@@ -57,7 +57,7 @@ const skillsData = [
 
 function MySkills() {
   return (
-    <div className='2xl:grid 2xl:justify-around' >
+    <div className='2xl:grid 2xl:justify-around' id='skills' >
       <div className="mt-7 flex justify-center items-center md:mt-[6rem] ">
         <h1 className="text-4xl text-black font-light md:mt-7">
           My<span className="font-bold">Skills</span>

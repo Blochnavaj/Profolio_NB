@@ -5,7 +5,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 function Project() {
   return (
-    <div className='bg-black'>
+    <div className='bg-black' id='projects'>
       <div className='flex justify-center items-center  '>
         <h1 className='text-white font-light lg:mt-9 text-6xl mt-6'>My  <span className='text-white font-bold'>Projects</span></h1>
       </div>

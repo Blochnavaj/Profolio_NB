@@ -3,7 +3,7 @@ import about_me from '../assets/about_me.svg';
 
 function AboutMe() {
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div  id="about" className="container mx-auto px-4 py-8"  >
             <div className="lg:flex md:grid ">
                 <img
                     className="md:w-[500px] md:h-[500px] md:pr-8 md:mt-6 w-[343px] h-[343px]  flex justify-center items-center m-auto"

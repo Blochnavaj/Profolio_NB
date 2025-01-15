@@ -44,7 +44,7 @@ function ContactMe() {
 
   return (
     <>
-      <div className='mt-[3rem] md:flex md:justify-around p-4'>
+      <div className='mt-[3rem] md:flex md:justify-around p-4' id='contact'>
 
         {/* contact details  */}
         <div className='md:pl-6'>
