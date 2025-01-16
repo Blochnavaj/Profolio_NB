@@ -22,7 +22,7 @@ function MyExperience() {
              </div>
               <h3 className="text-lg font-semibold mt-2 md:ml-2">{item.position}</h3>
               <p className="text-zinc-300 mt-2 md:ml-2">{item.description}</p>
-              <p className='text-zinc-300 mt-2 md:ml-2'><span className='font-semibold text-lg md:text-2xl'>Tech Use :</span> {item.Tech_Use}</p>
+              <p className='text-zinc-300 text-md mt-2 md:ml-2'><span className='font-semibold text-lg md:text-2xl'>Tech Use :</span> {item.Tech_Use}</p>
             </div>
           ))}
         </div>

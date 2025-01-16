@@ -12,7 +12,7 @@ function Header() {
                     <div className=' mt-3  text-3xl grid justify-center items-center lg:text-6xl lg:mt-[4rem] 2xl:px-16 lg:ml-5 lg:leading-[4.5rem]  md:text-5xl md:outline-[4.5rem]       '>
                         <p className=' font-light '> Hello I'am  <span className='font-black'>Navaj Bloch.</span></p>
                          
-                        <p className=''><span className='font-black'> Frontend</span > <span className='special-font'> Developer</span> </p>  
+                        <p className=''><span className='font-black'> Software</span > <span className='special-font'> Developer</span> </p>  
                         <p className=''>
                             Based In <span className='font-black '>India.</span>
                         </p>

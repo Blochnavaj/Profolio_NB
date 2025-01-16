@@ -16,13 +16,13 @@ function Project() {
             <div key={project.id} className={`flex flex-col md:flex-row ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               } items-center my-6`}>
 
-              <img className={`w-full md:w-auto p-4 mx-auto ${index % 2 === 0 ? "md:p-6" : ""
+              <img className={`w-[250x] h-[350px] md:w-auto p-4 mx-auto  ${index % 2 === 0 ? "md:p-6" : ""
                 }`} src={project.image} alt="" />
               <div className='space-y-6 md:p-4 pl-4'>
                 <p className='text-white  font-bold text-3xl '>{project.number}</p>
                 <p className='text-white font-bold text-3xl  '>{project.name}</p>
                 <p className='text-zinc-500'>{project.description}</p>
-                <a className='text-white  hover:text-gray-600' href={project.link}>
+                <a className='text-white  hover:text-gray-600' target='_blank' href={project.link}>
                   <RxExternalLink className='mt-5  w-12 h-12 ' />
                 </a>
               </div>

@@ -53,31 +53,30 @@ function ContactMe() {
             <input className='md:w-full  w-full p-4 rounded-md border   focus:ring-gray-600 focus:outline-none focus:ring-2' type="email" name="email" placeholder='Enter your Email' required />
             <textarea className='md:w-full w-full p-4 rounded-md resize-none border   focus:ring-gray-600 focus:outline-none focus:ring-2' name="message" id="" cols="6" rows="6" placeholder='How Can I Help You?' required></textarea>
 
+            <div className='md:flex md:items-center md:justify-center md:mr-9 gap-2'>
+  <button type="submit" className='m-auto border ml-4 px-4 py-2 md:px-4 md:py-3 md:text-nowrap  text-xl hover:text-gray-600 mt-1 transition-all duration-300 ease-linear rounded-lg bg-black text-white active:scale-90 active:bg-gray-700'>
+    Get in Touch
+  </button>
 
-            <div className='md:flex  md:items-center md:justify-center md:mr-9 gap-2 '>
-              <button type="submit" className='m-auto border  ml-4 px-4  py-3 md:px-4 md:py-3 md:text-nowrap  lg:px-3 lg:py-2 text-xl hover:text-gray-600  mt-1 transition-all duration-300 ease-linear     rounded-lg bg-black text-white active:scale-90 active:bg-gray-700'>Get in Touch </button>
+  <div className='flex gap-4 text-4xl items-center md:mt-2 mt-4 '>
+    <a href="#" target='_blank' className='border px-4 py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white'>
+      <i className="fa-brands fa-facebook text-lg"></i>
+    </a>
 
-              <div className='flex gap-5   mb-2     text-4xl md:flex md:justify-center md:items-center     mt-4'  >
-                <a href="#" target='_blank' className=' border px-4  rounded-md  py-2  flex justify-center items-center  border-black hover:bg-black hover:text-white '>
-                  <i class="fa-brands fa-facebook text-lg"></i>
-                </a>
+    <a href="https://www.linkedin.com/in/bloch-navaj" target='_blank' className='border px-4 py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white'>
+      <i className="fa-brands fa-linkedin text-lg"></i>
+    </a>
 
-                <a href="https://www.linkedin.com/in/bloch-navaj" target='_blank' className='border px-4  py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white '>
-                  <i class="fa-brands fa-linkedin text-lg"></i>
-                </a>
+    <a href="https://github.com/Blochnavaj" target='_blank' className='border px-4 py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white'>
+      <i className="fa-brands fa-github text-lg"></i>
+    </a>
 
-                <a href="https://github.com/Blochnavaj" target='_blank' className='border px-4  py-2 rounded-md  flex justify-center items-center border-black hover:bg-black hover:text-white'>
-                  <i class="fa-brands fa-github text-lg"></i>
+    <a href="#" target='_blank' className='border px-4 py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white'>
+      <i className="fa-brands fa-square-x-twitter text-lg"></i>
+    </a>
+  </div>
+</div>
 
-                </a>
-
-                <a href="#" target='_blank' className='border px-4  py-2 rounded-md flex justify-center items-center border-black hover:bg-black hover:text-white '>
-                  <i class="fa-brands fa-square-x-twitter text-lg"></i>
-                </a>
-
-
-              </div>
-            </div>
           </form>
         </div>
 
