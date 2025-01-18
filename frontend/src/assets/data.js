@@ -10,7 +10,7 @@ export const workdata = [
         company_name: 'MrLoggage',
         position: 'Software Engineer Intern',
         duration: 'jun-2024 - September ',
-        description: 'I worked as a full-stack developer during my internship at MrLoggage, using the MERN stack to create and launch several websites. I was involved in every step of the development process, from coming up with creative concepts and brainstorming to turning client designs into better user experiences. I produced projects that flawlessly matched client objectives by redesigning user interfaces and adding effective functionalities, demonstrating a harmony between technical know-how and innovative problem-solving.',
+        description: ' During my internship at MrLoggage as a full-stack developer, I utilized the MERN stack to design and deploy multiple websites. I played a key role in the entire development lifecycle, from conceptualizing innovative ideas and brainstorming solutions to transforming client-provided designs into enhanced user experiences. By revamping user interfaces and integrating functional improvements, I delivered projects that met client requirements with precision, showcasing a blend of technical expertise and creative problem-solving.',
         Tech_Use: 'Utilized technologies such as React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript, Git/GitHub, Data Validation, and RESTful APIs to support development tasks '
     },
     {
