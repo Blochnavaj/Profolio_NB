@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex md:justify-between items-center mt-4 m-3 xl:justify-between">
+      <div className="flex md:justify-between items-center mt-4 m-3 xl:justify-between ">
         <div className="ml-6">
           <h1 className="text-3xl font-bold text-black hover:text-blue-500 cursor-pointer">
             NAVAJ

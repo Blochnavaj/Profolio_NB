@@ -4,7 +4,7 @@ import { workdata } from '../assets/data.js'
 function MyExperience() {
    return (
     <>
-
+    
       <div className='bg-black mt-6'>
         {/* Tittle section  */}
         <div className='grid justify-center items-center md:mt-4 pt-6 '>
