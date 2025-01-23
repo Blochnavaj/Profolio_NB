@@ -12,8 +12,6 @@ import ContactMe from './Components/ContactMe'
    return (
    <>
     
-
-   
      <Navbar/>
       <Header/>
     <div className='lg:mt-6 md:m-auto'>
